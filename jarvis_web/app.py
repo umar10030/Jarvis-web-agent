@@ -4,9 +4,9 @@ from groq import Groq
 
 st.set_page_config(page_title="J.A.R.V.I.S. Web", page_icon="🤖")
 
-api_key = st.secrets["GROQ_API_KEY"]
-client = Groq(api_key=api_key)
-
+client = Groq(
+    api_key="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"
+)
 SYSTEM_PROMPT = """
 You are J.A.R.V.I.S., a helpful AI assistant.
 You must always answer clearly and concisely.
